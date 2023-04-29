@@ -22,16 +22,16 @@ Prior to being used as input for classification algorithms, the audio files unde
 # Classification Algorithms
 This project employed several classification algorithms to classify music genres with the goal of determining the most accurate method following some :
 * Logistic Regression
-Logistic Regression is a linear regression-based classification algorithm that is often used for binary classification problems. It is simple yet effective and is particularly useful when the input data is linearly separable. Logistic Regression was used in this project to classify the music genres based on the extracted features.
+ is a linear regression-based classification algorithm that is often used for binary classification problems. It is simple yet effective and is particularly useful when the input data is linearly separable. Logistic Regression was used in this project to classify the music genres based on the extracted features.
 
 * AdaBoostClassifier
-AdaBoostClassifier is an ensemble learning algorithm that combines several weak learners to produce a strong learner. It is particularly useful for classification problems and can be used with various base classifiers. AdaBoostClassifier was used in this project to classify the music genres by boosting the performance of several weak classifiers.
+ is an ensemble learning algorithm that combines several weak learners to produce a strong learner. It is particularly useful for classification problems and can be used with various base classifiers. AdaBoostClassifier was used in this project to classify the music genres by boosting the performance of several weak classifiers.
 
 * CatBoostClassifier
-CatBoostClassifier is another ensemble learning algorithm that can handle categorical data and perform well in noisy and unbalanced datasets. It is particularly useful for classification problems and has been used in various machine learning competitions. In this project, CatBoostClassifier was used to classify the music genres based on the extracted features.
+ is another ensemble learning algorithm that can handle categorical data and perform well in noisy and unbalanced datasets. It is particularly useful for classification problems and has been used in various machine learning competitions. In this project, CatBoostClassifier was used to classify the music genres based on the extracted features.
 
 * K-Nearest Neighbors (KNN)
-K-Nearest Neighbors (KNN) is a non-parametric classification algorithm that is particularly useful when the training data is small. It is simple yet effective and can be used for both binary and multi-class classification problems. KNN was used in this project to classify the music genres based on the similarity of the extracted features.
+ is a non-parametric classification algorithm that is particularly useful when the training data is small. It is simple yet effective and can be used for both binary and multi-class classification problems. KNN was used in this project to classify the music genres based on the similarity of the extracted features.
 
 **Libraries used**
 The following libraries were used in this project:
